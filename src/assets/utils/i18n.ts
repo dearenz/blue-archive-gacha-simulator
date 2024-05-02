@@ -36,20 +36,20 @@ const messages = {
         again: '続けて募集'
     },
     en: {
-        mainTitle: 'Student Recruitment',
-        title: 'Standard Recruitment',
-        subtitle: 'Recruit a diverse range of students!',
-        notice: 'Select 10 times to guarantee at least one 3★ student! \n※ Click the button in the upper right corner to switch languages/view recruitment history.',
-        gacha1: 'Recruit 1',
-        gacha10: 'Recruit 10',
+        mainTitle: 'Gacha Kontergame',
+        title: 'Gacha Voucher KonterGame',
+        subtitle: 'Dapatkan voucher diskon hingga 90%!',
+        notice: 'Draw 10 kali untuk mendapatkan guaranteed 3★ Reward! \n※ Click the button in the upper right corner to switch languages/view recruitment history.',
+        gacha1: 'Draw 1',
+        gacha10: 'Draw 10',
         recruitPoint: 'Recruitment Points',
         reset: 'Reset',
         modalTitle: 'Notification',
-        modalBody: 'Recruit %num time(s)?',
-        modalAgain: 'Recruit again?',
+        modalBody: 'Draw %num time(s)?',
+        modalAgain: 'Draw again?',
         cancel: 'Cancel',
         confirm: 'Confirm',
-        history: 'Recruitment History',
+        history: 'Draw History',
         again: 'Try Again'
     }
 }
@@ -58,7 +58,7 @@ const i18n = createI18n({
     legacy: false,
     globalInjection: true,
 
-    locale: 'zh',
+    locale: 'en',
     messages
 })
 

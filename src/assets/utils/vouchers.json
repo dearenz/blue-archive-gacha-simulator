@@ -1,0 +1,23 @@
+[
+    {
+        "Id": 1,
+        "Name": "Voucher Diskon 10%",
+        "StarGrade": 1,
+        "Avatar": "https://t3.ftcdn.net/jpg/03/62/91/30/360_F_362913064_EHXLU7kTxz9EDRVzXBamD60NlOAp5vB9.jpg",
+        "PathName": "Aru"
+    },
+    {
+        "Id": 2,
+        "Name": "Voucher Diskon 10%",
+        "StarGrade": 2,
+        "Avatar": "https://png.pngtree.com/png-clipart/20220530/original/pngtree-promo-hemat-diskon-50-png-image_7768073.png",
+        "PathName": "Aru"
+    },
+    {
+        "Id": 3,
+        "Name": "Voucher Pulsa 100.000",
+        "StarGrade": 3,
+        "Avatar": "https://siplahtelkom.com/public/products/169948/3726512/voucher-pulsa.1659754515.png",
+        "PathName": "Aru"
+    }
+]

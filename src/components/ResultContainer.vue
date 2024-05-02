@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { resultItem } from '@/assets/utils/interface'
-import { getFandomAvatar, getSchaledbInfo } from '@/assets/utils/api'
+import { getThumbnailReward, getSchaledbInfo } from '@/assets/utils/api'
 import type { Ref } from 'vue'
 import { inject, ref } from 'vue'
 
@@ -44,7 +44,11 @@ const { t } = useI18n()
             <div class="shadow-box" :class="{ shadow: item['StarGrade'] > 1 }" v-for="item in result">
                 <a :href="getSchaledbInfo(item['PathName'])" target="_blank">
                     <div class="card" :class="backgroundColor(item['StarGrade'])">
-                        <div class="char"><img :src="getFandomAvatar(item['Avatar'])" /></div>
+                        <div class="char"><img :src="getThumbnailReward(item['Avatar'])" /></div>
+                        <!-- <div class="char">
+                            <img
+                                src="https://t3.ftcdn.net/jpg/03/62/91/30/360_F_362913064_EHXLU7kTxz9EDRVzXBamD60NlOAp5vB9.jpg" />
+                        </div> -->
                         <div class="new" v-show="item['isNew']"><img src="/New.png" /></div>
                         <div class="star"><img src="/Star.png" v-for="n in item['StarGrade']" /></div>
                     </div>

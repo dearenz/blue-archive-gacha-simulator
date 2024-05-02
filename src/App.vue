@@ -3,7 +3,7 @@ import MainContainer from './components/MainContainer.vue'
 import VideoContainer from './components/VideoContainer.vue'
 import ResultContainer from './components/ResultContainer.vue'
 
-import data from '@/assets/utils/students.json'
+import data from '@/assets/utils/vouchers.json'
 import type { myStudent, resultItem, historyItem } from '@/assets/utils/interface'
 import type { Ref } from 'vue'
 import { onMounted, provide, ref } from 'vue'

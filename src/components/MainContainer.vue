@@ -11,7 +11,7 @@ const changeVisible = inject('changeVisible') as Function
 const resetHistory = inject('resetHistory') as Function
 const history = inject('history') as historyItem[]
 const totalCnt = inject('totalCnt') as number
-const home = ref('https://github.com/U1805/blue-archive-gacha-simulator')
+const home = ref('https://dev.kontergame.id')
 
 function getStudents(num: number) {
     getStudents_(num)
@@ -44,13 +44,13 @@ const videoPaths = getVideoPaths()
     <div class="table-container">
         <div class="header">
             <div class="title">{{ $t('mainTitle') }}</div>
-            <div class="ap">999/999</div>
-            <div class="crash">999,999,999</div>
-            <div class="stone">999,999</div>
+            <!-- <div class="ap">999/999</div> -->
+            <div class="crash">100</div>
+            <!-- <div class="stone">999,999</div> -->
             <a class="icon link" :href="home"></a>
-            <a class="icon help" :href="home + '/blob/main/README-zh.md'"></a>
-            <a class="icon history" @click="showModal(2)"></a>
-            <a class="icon locale" @click="switchLocale()"></a>
+            <!-- <a class="icon help" :href="home + '/blob/main/README-zh.md'"></a> -->
+            <!-- <a class="icon history" @click="showModal(2)"></a> -->
+            <!-- <a class="icon locale" @click="switchLocale()"></a> -->
         </div>
 
         <div class="preview">
@@ -61,7 +61,7 @@ const videoPaths = getVideoPaths()
         <div class="gradient"></div>
 
         <div class="gacha-wrapper">
-            <div class="event-banner">
+            <!-- <div class="event-banner">
                 <img src="/EventBanner0.png" />
                 <img src="/EventBanner0.png" />
                 <img src="/EventBanner1.png" />
@@ -70,11 +70,11 @@ const videoPaths = getVideoPaths()
                 <span class="dot active"></span>
                 <span class="dot"></span>
                 <span class="dot"></span>
-            </div>
+            </div> -->
 
             <div class="tab-container">
                 <div class="tab-body">
-                    <div class="duration">2023/08/09 From 10:00 ~ 2099/01/01 Until 09:59</div>
+                    <div class="duration">2024/05/01 From 10:00 ~ 2024/05/30 Until 09:59</div>
                     <div class="title">{{ $t('title') }}</div>
                     <div class="subtitle">{{ $t('subtitle') }}</div>
                     <div class="notice">{{ $t('notice') }}</div>
